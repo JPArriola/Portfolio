@@ -3485,3 +3485,8 @@ input, select, textarea {
 			}
 
 	}
+
+	/* Section 1 */
+	#headshot img {
+		width: 75%;
+	}
