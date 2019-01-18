@@ -2900,6 +2900,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		border-bottom: 1px solid white;
 	}
 
 		#header a {
@@ -3489,6 +3490,19 @@ input, select, textarea {
 	}
 
 	/* Section 1 */
+
+	#headshot-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#headshot{
+		display: flex;
+		justify-content: center;
+	}
+
 	#headshot img {
-		width: 75%;
+		width: 60%;
+		height: 60%;
 	}
