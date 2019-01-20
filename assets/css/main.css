@@ -3549,3 +3549,9 @@ input, select, textarea {
 		transform: rotate(-45deg);
 		font-size: 5em;
 	}
+
+	#project-item{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
